@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Thu Mua Phế Liệu Giá Cao - Hưng Thịnh Phát | Hotline 0933.231.777</title>
+<meta name="description" content="Công ty Thu Mua Phế Liệu Hưng Thịnh Phát - Giá cao nhất TPHCM & toàn quốc. Thu mua sắt thép, đồng, nhôm, inox, máy móc, xác nhà. Thanh toán liền tay 24/7." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+  :root {
+    --blue: #1e5cb3;
+    --blue-dark: #0e3a82;
+    --blue-deep: #072656;
+    --blue-light: #3b7dd9;
+    --red: #d32f2f;
+    --red-dark: #a31f1f;
+    --yellow: #ffcb05;
+    --orange: #f58220;
+    --green: #16a34a;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --bg: #f4f7fb;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Be Vietnam Pro', system-ui, sans-serif;
+    color: var(--text);
+    background: #fff;
+    line-height: 1.6;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  .container { width: min(1240px, 94%); margin: 0 auto; }
+  .display { font-family: 'Oswald', sans-serif; letter-spacing: .5px; }
+
+  /* ============== TOP BAR ============== */
+  .topbar {
+    background: var(--blue-deep);
+    color: #dbe7ff;
+    font-size: 13px;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+  }
+  .topbar .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+  .topbar .left span { margin-right: 18px; }
+  .topbar i { color: var(--yellow); margin-right: 5px; }
+  .topbar .socials a {
+    display: inline-grid; place-items: center;
+    width: 28px; height: 28px;
+    background: rgba(255,255,255,.08);
+    border-radius: 50%;
+    margin-left: 4px;
+    transition: background .2s;
+  }
+  .topbar .socials a:hover { background: var(--yellow); color: #000; }
+
+  /* ============== HEADER ============== */
+  header.site-header { background: #fff; padding: 10px 0; border-bottom: 3px solid var(--blue); }
+  .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; flex-wrap: wrap; }
+  .logo-wrap { display: flex; align-items: center; gap: 14px; }
+  .logo-circle {
+    width: 60px; height: 60px; border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, var(--blue-light), var(--blue-dark));
+    display: grid; place-items: center;
+    color: #fff; font-size: 26px;
+    box-shadow: 0 6px 20px rgba(14,58,130,.35);
+    position: relative;
+  }
+  .logo-circle::after {
+    content: ''; position: absolute; inset: -5px;
+    border: 2px dashed var(--blue-light);
+    border-radius: 50%; opacity: .4;
+  }
+  .logo-text h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px; font-weight: 700;
+    color: var(--blue-dark); letter-spacing: .8px;
+    line-height: 1;
+  }
+  .logo-text h1 span { color: var(--red); }
+  .logo-text p { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .logo-text p i { color: var(--yellow); }
+
+  .header-contact { display: flex; gap: 18px; }
+  .hc-item { display: flex; gap: 10px; align-items: center; padding: 6px 16px; border-left: 1px solid var(--border); }
+  .hc-item:first-child { border-left: 0; }
+  .hc-item .ic {
+    width: 42px; height: 42px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--red), #ff6b35);
+    display: grid; place-items: center; color: #fff; font-size: 16px;
+    animation: shake 3s infinite;
+  }
+  .hc-item .ic.blue { background: linear-gradient(135deg, var(--blue), var(--blue-light)); }
+  .hc-item small { display: block; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+  .hc-item strong { color: var(--red); font-size: 17px; font-weight: 800; display: block; line-height: 1.1; }
+  .hc-item .blue + small + strong, .hc-item a.blue-num { color: var(--blue-dark); }
+  @keyframes shake {
+    0%, 90%, 100% { transform: rotate(0); }
+    92% { transform: rotate(-15deg); }
+    94% { transform: rotate(15deg); }
+    96% { transform: rotate(-15deg); }
+    98% { transform: rotate(10deg); }
+  }
+
+  /* ============== NAV ============== */
+  nav.main-nav {
+    background: linear-gradient(180deg, var(--blue) 0%, var(--blue-dark) 100%);
+    position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+  }
+  .nav-inner { display: flex; flex-wrap: wrap; align-items: center; }
+  .nav-inner > a {
+    color: #fff; padding: 14px 16px;
+    font-weight: 700; font-size: 13.5px;
+    text-transform: uppercase; letter-spacing: .3px;
+    border-right: 1px solid rgba(255,255,255,.08);
+    position: relative;
+    transition: background .2s;
+    white-space: nowrap;
+  }
+  .nav-inner > a.home { background: var(--yellow); color: var(--blue-dark); }
+  .nav-inner > a:hover { background: var(--blue-dark); }
+  .nav-inner > a i { margin-right: 6px; }
+  .nav-inner .today {
+    margin-left: auto; color: #fff; padding: 14px 16px; font-size: 12.5px;
+    background: var(--red); font-weight: 700;
+    white-space: nowrap; letter-spacing: .3px;
+  }
+  .nav-inner .today i { margin-right: 6px; color: var(--yellow); }
+  @media (max-width: 1180px) { .nav-inner .today { display: none; } }
+  .nav-toggle { display: none; background: none; border: 0; color: #fff; font-size: 22px; padding: 12px 18px; cursor: pointer; }
+
+  /* ============== HERO (Miền Nam style) ============== */
+  .hero {
+    position: relative;
+    background: linear-gradient(180deg, #f1f6ff 0%, #dce9fb 100%);
+    color: var(--blue-dark);
+    overflow: hidden;
+    padding: 30px 0 40px;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(255,255,255,.7), transparent 40%),
+      repeating-linear-gradient(45deg, transparent 0 40px, rgba(30,92,179,.04) 40px 41px);
+    pointer-events: none;
+  }
+  .hero .container {
+    position: relative; z-index: 2;
+    display: grid; grid-template-columns: 1.1fr 1fr auto;
+    gap: 30px; align-items: center;
+  }
+
+  .hero-left .pre {
+    display: block; color: var(--blue-dark);
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px; letter-spacing: 3px; font-weight: 600;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  .hero-left h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px; font-weight: 700; line-height: 1;
+    color: var(--blue-dark);
+    margin: 4px 0 18px;
+    text-shadow: 0 2px 0 rgba(255,255,255,.6);
+  }
+  .hero-left h1 .nam { color: var(--red); }
+
+  .hero-left p.lead {
+    font-size: 16px; color: #334155;
+    max-width: 560px; margin-bottom: 22px; line-height: 1.7;
+  }
+  .hero-left p.lead b { color: var(--blue-dark); }
+
+  .pay-row {
+    display: flex; gap: 18px; align-items: center;
+    margin-bottom: 18px;
+  }
+  .pay-icon {
+    width: 66px; height: 66px; border-radius: 50%;
+    background: linear-gradient(135deg, #fbbf24, var(--orange));
+    display: grid; place-items: center;
+    color: #fff; font-size: 26px;
+    box-shadow: 0 10px 22px rgba(245,130,32,.35);
+    flex: none;
+  }
+  .pay-row .lbl {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px; color: var(--blue-dark);
+    font-weight: 600; letter-spacing: 1.5px;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .pay-row .num {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px; color: var(--red); font-weight: 700;
+    letter-spacing: 1px; line-height: 1;
+    margin-top: 4px; display: block;
+  }
+
+  .chiet-khau {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: rgba(30,92,179,.08);
+    padding: 10px 20px; border-radius: 30px;
+    color: var(--blue-dark); font-weight: 600; font-size: 14px;
+    border-left: 4px solid var(--red);
+  }
+  .chiet-khau i { color: var(--orange); font-size: 18px; }
+
+  /* 4 trust badges */
+  .hero-badges {
+    display: grid; grid-template-columns: repeat(4,1fr); gap: 8px;
+    margin-top: 22px;
+    max-width: 560px;
+  }
+  .hb {
+    background: #fff;
+    border: 2px solid var(--blue);
+    padding: 10px 8px; border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(14,58,130,.08);
+    transition: transform .2s;
+  }
+  .hb.red { background: var(--red); border-color: var(--red); color: #fff; }
+  .hb.red i { color: var(--yellow); }
+  .hb:hover { transform: translateY(-3px); }
+  .hb i { font-size: 20px; display: block; margin-bottom: 3px; color: var(--blue); }
+  .hb span { font-family: 'Oswald', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: .8px; color: var(--blue-dark); }
+  .hb.red span { color: #fff; }
+
+  /* ========= DIAMOND PHOTO GRID ========= */
+  .diamond-wrap {
+    position: relative;
+    width: 440px; height: 440px;
+    margin: 0 auto;
+  }
+  .d-tile {
+    position: absolute;
+    width: 210px; height: 210px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-size: 260%;
+    background-position: center;
+    filter: saturate(1.05);
+    transition: transform .3s;
+  }
+  .d-tile.d1 { top: 0; left: 50%; margin-left: -105px; }
+  .d-tile.d2 { top: 50%; right: 0; margin-top: -105px; }
+  .d-tile.d3 { bottom: 0; left: 50%; margin-left: -105px; }
+  .d-tile.d4 { top: 50%; left: 0; margin-top: -105px; }
+
+  .d-center {
+    position: absolute;
+    width: 230px; height: 230px;
+    top: 50%; left: 50%;
+    margin: -115px 0 0 -115px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background: linear-gradient(135deg, var(--blue-light) 0%, var(--blue-dark) 100%);
+    display: grid; place-items: center;
+    color: #fff; text-align: center;
+    box-shadow: 0 12px 30px rgba(14,58,130,.4);
+    z-index: 3;
+  }
+  .d-center::before {
+    content: '';
+    position: absolute; inset: 16px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    border: 2px dashed rgba(255,255,255,.35);
+  }
+  .d-center .cao {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px; font-weight: 600;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    line-height: 1.1;
+  }
+  .d-center .thi {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px; font-weight: 600;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    line-height: 1.1; opacity: .95;
+  }
+  .d-center .pct {
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px; font-weight: 700;
+    color: var(--yellow);
+    line-height: 1; margin-top: 8px;
+    text-shadow: 0 4px 10px rgba(0,0,0,.2);
+  }
+  .d-center .pct i { font-style: normal; font-size: 34px; vertical-align: top; }
+
+  /* arrow pointing to 30% diamond */
+  .d-arrow {
+    position: absolute;
+    top: 38%; left: -30px;
+    font-size: 46px; color: var(--yellow);
+    animation: bob 1.8s ease-in-out infinite;
+    z-index: 4;
+    text-shadow: 0 4px 10px rgba(0,0,0,.25);
+  }
+  @keyframes bob {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(-8px); }
+  }
+
+  /* phone callouts on far right */
+  .phone-col {
+    display: flex; flex-direction: column; gap: 16px;
+    min-width: 220px;
+  }
+  .phone-pill {
+    display: flex; align-items: center; gap: 12px;
+    background: #fff; border: 2px solid var(--red);
+    padding: 10px 22px 10px 10px;
+    border-radius: 40px;
+    box-shadow: 0 8px 20px rgba(14,58,130,.12);
+    transition: transform .2s;
+  }
+  .phone-pill:hover { transform: translateX(-4px); }
+  .phone-pill.blue { border-color: var(--blue); }
+  .phone-pill .ring {
+    width: 42px; height: 42px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--red), #ff6033);
+    display: grid; place-items: center;
+    color: #fff; font-size: 16px;
+    flex: none;
+    animation: shake 3s infinite;
+  }
+  .phone-pill.blue .ring { background: linear-gradient(135deg, var(--blue-light), var(--blue-dark)); }
+  .phone-pill b {
+    font-family: 'Oswald', sans-serif;
+    color: var(--red); font-size: 22px; font-weight: 700;
+    letter-spacing: .5px; line-height: 1;
+  }
+  .phone-pill.blue b { color: var(--blue-dark); }
+  .phone-pill small {
+    display: block; color: var(--muted);
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+  }
+
+  /* ============== RUNNING STRIP ============== */
+  .runstrip {
+    background: var(--red); color: #fff;
+    padding: 0; overflow: hidden;
+    border-top: 3px solid var(--yellow); border-bottom: 3px solid var(--yellow);
+  }
+  .runstrip-inner {
+    display: flex; gap: 60px;
+    padding: 14px 0;
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+  }
+  .runstrip span { font-weight: 700; font-size: 15px; }
+  .runstrip i { color: var(--yellow); margin-right: 8px; }
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* ============== SECTIONS ============== */
+  section { padding: 70px 0; }
+  section.alt { background: var(--bg); }
+  .section-head { text-align: center; margin-bottom: 46px; position: relative; }
+  .section-head .rib {
+    display: inline-block;
+    background: var(--red); color: #fff;
+    padding: 6px 28px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; font-size: 13px;
+    position: relative; margin-bottom: 16px;
+    clip-path: polygon(12px 0, calc(100% - 12px) 0, 100% 50%, calc(100% - 12px) 100%, 12px 100%, 0 50%);
+  }
+  .section-head h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: var(--blue-dark);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .section-head h2 span { color: var(--red); }
+  .section-head .bar {
+    width: 90px; height: 3px; background: var(--yellow);
+    margin: 14px auto;
+    position: relative;
+  }
+  .section-head .bar::before, .section-head .bar::after {
+    content: ''; position: absolute; top: 50%;
+    width: 8px; height: 8px; background: var(--red); border-radius: 50%;
+    transform: translateY(-50%);
+  }
+  .section-head .bar::before { left: -20px; }
+  .section-head .bar::after { right: -20px; }
+  .section-head p { color: var(--muted); max-width: 720px; margin: 14px auto 0; }
+
+  /* ============== INTRO ============== */
+  .intro-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 48px; align-items: center; }
+  .intro-img-wrap { position: relative; }
+  .intro-img {
+    border-radius: 16px; overflow: hidden; height: 460px;
+    box-shadow: 0 18px 50px rgba(14,58,130,.25);
+  }
+  .intro-img img { width: 100%; height: 100%; object-fit: cover; }
+  .intro-img-small {
+    position: absolute; bottom: -30px; right: -20px;
+    width: 200px; height: 160px; border-radius: 12px; overflow: hidden;
+    border: 6px solid #fff; box-shadow: 0 12px 30px rgba(0,0,0,.2);
+  }
+  .intro-img-small img { width: 100%; height: 100%; object-fit: cover; }
+  .intro-years {
+    position: absolute; top: 24px; left: -18px;
+    background: var(--yellow); color: var(--blue-dark);
+    padding: 14px 22px; border-radius: 10px;
+    box-shadow: 0 10px 26px rgba(0,0,0,.2);
+    text-align: center;
+  }
+  .intro-years b { font-family: 'Oswald', sans-serif; font-size: 38px; display: block; line-height: 1; color: var(--red); }
+  .intro-years span { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
+  .intro h2 { font-family: 'Oswald', sans-serif; font-size: 36px; color: var(--blue-dark); line-height: 1.1; margin-bottom: 16px; }
+  .intro h2 span { color: var(--red); }
+  .intro .sub { color: var(--red); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 13px; }
+  .intro p { color: var(--muted); margin-bottom: 12px; }
+  .intro ul { list-style: none; margin: 18px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 18px; }
+  .intro ul li { display: flex; gap: 10px; padding: 4px 0; }
+  .intro ul li i { color: var(--green); margin-top: 4px; }
+  .intro-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 14px 28px; border-radius: 40px; font-weight: 700;
+    font-size: 14px; cursor: pointer; border: 0;
+    text-transform: uppercase; letter-spacing: .8px;
+    transition: transform .15s, box-shadow .2s;
+    font-family: inherit;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-red { background: var(--red); color: #fff; box-shadow: 0 10px 24px rgba(211,47,47,.35); }
+  .btn-yellow { background: var(--yellow); color: var(--blue-dark); box-shadow: 0 10px 24px rgba(255,203,5,.45); }
+  .btn-blue { background: var(--blue); color: #fff; box-shadow: 0 10px 24px rgba(30,92,179,.35); }
+  .btn-ghost { background: rgba(255,255,255,.15); color: #fff; border: 2px solid #fff; }
+
+  /* ============== 6 BENEFIT CARDS ============== */
+  .benefits { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
+  .bf-card {
+    background: #fff; padding: 24px 12px; border-radius: 14px;
+    text-align: center; border: 1px solid var(--border);
+    transition: transform .25s, box-shadow .25s, border-color .25s;
+  }
+  .bf-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(14,58,130,.15);
+    border-color: var(--blue);
+  }
+  .bf-ic {
+    width: 68px; height: 68px; margin: 0 auto 12px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--blue-light), var(--blue-dark));
+    display: grid; place-items: center;
+    color: var(--yellow); font-size: 28px;
+    position: relative;
+  }
+  .bf-ic::before {
+    content: ''; position: absolute; inset: -6px;
+    border: 2px dashed var(--blue-light); border-radius: 50%; opacity: .4;
+  }
+  .bf-card h4 { font-size: 14px; font-weight: 800; color: var(--blue-dark); text-transform: uppercase; margin-bottom: 6px; }
+  .bf-card p { font-size: 13px; color: var(--muted); }
+
+  /* ============== CATEGORIES ============== */
+  .cats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .cat {
+    background: #fff; border-radius: 14px; overflow: hidden;
+    box-shadow: 0 6px 22px rgba(14,58,130,.08);
+    transition: transform .25s;
+    position: relative;
+  }
+  .cat:hover { transform: translateY(-6px); }
+  .cat .thumb {
+    height: 190px;
+    background-size: cover; background-position: center;
+    position: relative;
+  }
+  .cat .thumb::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(180deg, transparent 50%, rgba(14,58,130,.85) 100%);
+  }
+  .cat .rib-price {
+    position: absolute; top: 14px; left: -6px;
+    background: var(--red); color: #fff;
+    font-weight: 800; padding: 6px 14px;
+    font-size: 12px; letter-spacing: .5px;
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 0, 95% 50%, 100% 100%, 0 100%);
+  }
+  .cat .title-on-img {
+    position: absolute; left: 14px; bottom: 10px; color: #fff;
+    z-index: 2; font-family: 'Oswald', sans-serif;
+    font-size: 20px; font-weight: 700; text-transform: uppercase;
+    text-shadow: 0 2px 8px rgba(0,0,0,.5);
+  }
+  .cat .body { padding: 16px 18px 20px; }
+  .cat .body p { font-size: 13.5px; color: var(--muted); min-height: 58px; }
+  .cat .body a { display: inline-block; color: var(--red); font-weight: 700; font-size: 13px; margin-top: 10px; }
+  .cat .body a i { transition: transform .2s; }
+  .cat:hover .body a i { transform: translateX(5px); }
+
+  /* ============== PRICE TABLE ============== */
+  .price-wrap {
+    background: #fff; border-radius: 14px; overflow: hidden;
+    box-shadow: 0 8px 28px rgba(14,58,130,.1);
+    border: 1px solid var(--border);
+  }
+  .price-wrap .head-band {
+    background: linear-gradient(90deg, var(--red), #ff6033);
+    color: #fff; padding: 18px 24px;
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+  }
+  .price-wrap .head-band h3 { font-family: 'Oswald', sans-serif; font-size: 22px; text-transform: uppercase; }
+  .price-wrap .head-band span { background: #fff; color: var(--red); padding: 4px 14px; border-radius: 20px; font-weight: 800; font-size: 13px; }
+  .price-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .price-table thead { background: #eef3fb; }
+  .price-table th { padding: 14px 18px; text-align: left; color: var(--blue-dark); font-weight: 800; text-transform: uppercase; font-size: 12px; letter-spacing: .5px; border-bottom: 2px solid var(--blue); }
+  .price-table td { padding: 12px 18px; border-bottom: 1px dashed var(--border); }
+  .price-table tbody tr:hover { background: #fafbff; }
+  .price-table td.lbl { display: flex; align-items: center; gap: 12px; font-weight: 700; color: var(--blue-dark); }
+  .price-table td.lbl .mini {
+    width: 38px; height: 38px; border-radius: 8px;
+    background: linear-gradient(135deg, var(--blue-light), var(--blue-dark));
+    color: var(--yellow); display: grid; place-items: center;
+  }
+  .price-table td.pr { color: var(--red); font-weight: 800; font-size: 15px; }
+  .price-table td.pr small { color: var(--muted); font-weight: 500; font-size: 11px; display: block; }
+  .price-note { text-align: center; color: var(--muted); font-size: 13px; margin-top: 14px; }
+  .price-note i { color: var(--yellow); }
+
+  /* ============== COMMISSION TABLE ============== */
+  .commission {
+    background: linear-gradient(135deg, var(--blue-dark), var(--blue-deep));
+    color: #fff; padding: 40px; border-radius: 16px;
+    margin-top: 40px;
+    position: relative; overflow: hidden;
+  }
+  .commission::before {
+    content: ''; position: absolute; top: -80px; right: -80px;
+    width: 280px; height: 280px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,203,5,.25), transparent);
+  }
+  .commission h3 { font-family: 'Oswald', sans-serif; font-size: 28px; text-align: center; margin-bottom: 6px; position: relative; }
+  .commission h3 span { color: var(--yellow); }
+  .commission > p { text-align: center; opacity: .9; margin-bottom: 24px; position: relative; }
+  .com-tiers { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; position: relative; }
+  .tier {
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.18);
+    padding: 20px; border-radius: 14px;
+    text-align: center;
+    backdrop-filter: blur(6px);
+    transition: transform .2s, background .2s;
+  }
+  .tier:hover { transform: translateY(-6px); background: rgba(255,203,5,.15); }
+  .tier small { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; opacity: .85; }
+  .tier .amt { font-family: 'Oswald', sans-serif; font-size: 32px; color: var(--yellow); display: block; margin: 6px 0; font-weight: 700; }
+  .tier p { font-size: 13px; opacity: .9; }
+
+  /* ============== PROCESS ============== */
+  .process-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; position: relative; margin-top: 40px; }
+  .process-grid::before {
+    content: ''; position: absolute;
+    top: 46px; left: 10%; right: 10%;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, var(--red) 0, var(--red) 8px, transparent 8px, transparent 16px);
+    z-index: 0;
+  }
+  .ps {
+    text-align: center; padding: 26px 14px 20px;
+    background: #fff; border-radius: 14px;
+    position: relative; z-index: 1;
+    box-shadow: 0 6px 22px rgba(14,58,130,.08);
+    border: 1px solid var(--border);
+  }
+  .ps .n {
+    width: 56px; height: 56px;
+    margin: -46px auto 14px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--red), #ff6033);
+    color: #fff; display: grid; place-items: center;
+    font-family: 'Oswald', sans-serif; font-size: 26px;
+    border: 5px solid var(--bg);
+    box-shadow: 0 6px 16px rgba(211,47,47,.35);
+  }
+  .ps i { font-size: 32px; color: var(--blue); margin-bottom: 8px; }
+  .ps h4 { font-family: 'Oswald', sans-serif; color: var(--blue-dark); font-size: 16px; text-transform: uppercase; margin-bottom: 6px; }
+  .ps p { font-size: 13px; color: var(--muted); }
+
+  /* ============== CTA BAND ============== */
+  .cta-band {
+    background: linear-gradient(90deg, var(--red), #ff6033);
+    padding: 40px 0;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-band::before {
+    content: ''; position: absolute; inset: 0;
+    background: url('https://images.unsplash.com/photo-1605152276897-4f618f831968?auto=format&fit=crop&w=1600&q=60') center/cover;
+    opacity: .12;
+  }
+  .cta-band .container { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+  .cta-band h2 { font-family: 'Oswald', sans-serif; font-size: 32px; text-transform: uppercase; line-height: 1.1; }
+  .cta-band h2 small { display: block; font-size: 15px; font-weight: 500; opacity: .9; text-transform: none; letter-spacing: 0; }
+  .cta-band .phone-big {
+    display: inline-flex; align-items: center; gap: 14px;
+    background: #fff; color: var(--red);
+    padding: 14px 32px; border-radius: 40px;
+    font-family: 'Oswald', sans-serif; font-size: 30px; font-weight: 700;
+    box-shadow: 0 12px 30px rgba(0,0,0,.25);
+  }
+
+  /* ============== GALLERY ============== */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 180px;
+    gap: 12px;
+  }
+  .gallery-grid .g-item {
+    border-radius: 10px; overflow: hidden;
+    background-size: cover; background-position: center;
+    position: relative;
+    transition: transform .25s;
+    cursor: pointer;
+  }
+  .gallery-grid .g-item::after {
+    content: '\f00e';
+    font-family: 'Font Awesome 6 Free'; font-weight: 900;
+    position: absolute; inset: 0;
+    background: rgba(14,58,130,.6);
+    color: #fff; font-size: 28px;
+    display: grid; place-items: center;
+    opacity: 0; transition: opacity .25s;
+  }
+  .gallery-grid .g-item:hover::after { opacity: 1; }
+  .gallery-grid .g-item:hover { transform: scale(1.03); }
+  .gallery-grid .big { grid-column: span 2; grid-row: span 2; }
+
+  /* ============== TESTIMONIALS ============== */
+  .testi-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
+  .testi {
+    background: #fff; padding: 28px; border-radius: 16px;
+    box-shadow: 0 6px 22px rgba(14,58,130,.08);
+    position: relative;
+    border-top: 4px solid var(--red);
+  }
+  .testi::before {
+    content: '\f10e'; font-family: 'Font Awesome 6 Free'; font-weight: 900;
+    position: absolute; top: 14px; right: 20px;
+    font-size: 32px; color: var(--bg);
+  }
+  .testi .stars { color: var(--yellow); margin-bottom: 10px; }
+  .testi p { font-style: italic; color: var(--muted); margin-bottom: 18px; min-height: 90px; font-size: 14.5px; }
+  .testi .who { display: flex; gap: 12px; align-items: center; }
+  .testi .who img { width: 48px; height: 48px; border-radius: 50%; border: 3px solid var(--yellow); }
+  .testi .who b { color: var(--blue-dark); display: block; }
+  .testi .who small { color: var(--muted); font-size: 12px; }
+
+  /* ============== FAQ ============== */
+  .faq { max-width: 820px; margin: 0 auto; }
+  .faq-item {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: border-color .2s;
+  }
+  .faq-item.open { border-color: var(--blue); box-shadow: 0 6px 22px rgba(30,92,179,.12); }
+  .faq-q {
+    padding: 16px 20px; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center;
+    font-weight: 700; color: var(--blue-dark);
+  }
+  .faq-q i { color: var(--red); transition: transform .25s; }
+  .faq-item.open .faq-q i { transform: rotate(45deg); }
+  .faq-a {
+    max-height: 0; overflow: hidden; transition: max-height .35s ease;
+    padding: 0 20px;
+  }
+  .faq-a p { color: var(--muted); padding-bottom: 16px; }
+  .faq-item.open .faq-a { max-height: 260px; }
+
+  /* ============== REGIONS ============== */
+  .region-grid {
+    display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px;
+  }
+  .region-grid a {
+    display: flex; align-items: center; gap: 8px;
+    padding: 10px 14px;
+    background: #fff; border: 1px solid var(--border);
+    border-radius: 8px; font-size: 13.5px;
+    color: var(--blue-dark); font-weight: 600;
+    transition: all .2s;
+  }
+  .region-grid a:hover { background: var(--blue); color: #fff; border-color: var(--blue); transform: translateY(-2px); }
+  .region-grid a i { color: var(--red); font-size: 12px; }
+  .region-grid a:hover i { color: var(--yellow); }
+
+  /* ============== NEWS ============== */
+  .news-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
+  .news {
+    background: #fff; border-radius: 14px; overflow: hidden;
+    box-shadow: 0 6px 20px rgba(14,58,130,.08);
+    transition: transform .25s;
+  }
+  .news:hover { transform: translateY(-4px); }
+  .news .thumb { height: 200px; background-size: cover; background-position: center; position: relative; }
+  .news .date {
+    position: absolute; top: 14px; left: 14px;
+    background: var(--red); color: #fff;
+    padding: 6px 12px; border-radius: 6px;
+    text-align: center; line-height: 1;
+    font-family: 'Oswald', sans-serif;
+  }
+  .news .date b { font-size: 18px; display: block; }
+  .news .date span { font-size: 11px; }
+  .news .body { padding: 20px 22px 24px; }
+  .news .meta { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+  .news .meta i { margin-right: 5px; color: var(--blue); }
+  .news h4 { font-size: 16px; color: var(--blue-dark); margin-bottom: 8px; line-height: 1.3; }
+  .news p { font-size: 13.5px; color: var(--muted); margin-bottom: 10px; }
+  .news a { color: var(--red); font-weight: 700; font-size: 13px; }
+
+  /* ============== CONTACT ============== */
+  .contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 32px; }
+  .contact-info { background: linear-gradient(135deg, var(--blue-dark), var(--blue-deep)); color: #fff; padding: 36px; border-radius: 16px; position: relative; overflow: hidden; }
+  .contact-info::before {
+    content: ''; position: absolute; bottom: -100px; right: -100px;
+    width: 300px; height: 300px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,203,5,.15), transparent);
+  }
+  .contact-info h3 { font-family: 'Oswald', sans-serif; font-size: 26px; text-transform: uppercase; margin-bottom: 18px; position: relative; }
+  .contact-info h3 span { color: var(--yellow); }
+  .ci-item { display: flex; gap: 14px; margin-bottom: 18px; align-items: flex-start; position: relative; }
+  .ci-item i {
+    width: 44px; height: 44px; flex: none;
+    background: linear-gradient(135deg, var(--red), #ff6033);
+    border-radius: 50%; display: grid; place-items: center;
+    color: #fff; font-size: 16px;
+  }
+  .ci-item strong { display: block; font-family: 'Oswald', sans-serif; font-size: 16px; text-transform: uppercase; letter-spacing: 1px; color: var(--yellow); }
+  .ci-item small { font-size: 14px; opacity: .95; }
+  .ci-item a { color: #fff; font-weight: 700; }
+
+  .contact-form { background: #fff; padding: 36px; border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 6px 22px rgba(14,58,130,.08); }
+  .contact-form h3 { font-family: 'Oswald', sans-serif; font-size: 26px; color: var(--blue-dark); text-transform: uppercase; margin-bottom: 18px; }
+  .contact-form h3 span { color: var(--red); }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .contact-form input, .contact-form textarea, .contact-form select {
+    width: 100%; padding: 13px 16px;
+    border: 1px solid var(--border);
+    border-radius: 10px; font-family: inherit; font-size: 14px;
+    margin-bottom: 14px; transition: border-color .2s, box-shadow .2s;
+  }
+  .contact-form input:focus, .contact-form textarea:focus, .contact-form select:focus {
+    outline: 0; border-color: var(--blue);
+    box-shadow: 0 0 0 3px rgba(30,92,179,.15);
+  }
+  .contact-form button { width: 100%; justify-content: center; padding: 16px; }
+
+  .map-wrap {
+    margin-top: 36px; border-radius: 16px; overflow: hidden;
+    box-shadow: 0 6px 22px rgba(14,58,130,.12);
+    border: 1px solid var(--border);
+  }
+  .map-wrap iframe { width: 100%; height: 400px; border: 0; display: block; }
+
+  /* ============== FOOTER ============== */
+  footer.site-footer {
+    background: var(--blue-deep); color: #c2d1ea;
+    padding: 60px 0 0;
+    position: relative;
+  }
+  footer.site-footer::before {
+    content: ''; height: 4px;
+    background: linear-gradient(90deg, var(--red), var(--yellow), var(--blue), var(--red));
+    display: block; margin-top: -4px;
+  }
+  .footer-grid {
+    display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+    gap: 36px; padding-top: 20px;
+  }
+  footer h4 {
+    color: #fff; font-family: 'Oswald', sans-serif;
+    font-size: 18px; text-transform: uppercase; margin-bottom: 18px;
+    position: relative; padding-bottom: 10px; letter-spacing: 1px;
+  }
+  footer h4::after {
+    content: ''; position: absolute; bottom: 0; left: 0;
+    width: 46px; height: 3px; background: var(--yellow);
+  }
+  footer ul { list-style: none; }
+  footer ul li { padding: 6px 0; font-size: 14px; }
+  footer ul li i { margin-right: 8px; color: var(--yellow); width: 14px; }
+  footer a:hover { color: var(--yellow); }
+  .footer-socials a { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: rgba(255,255,255,.1); margin-right: 6px; transition: background .2s, color .2s; }
+  .footer-socials a:hover { background: var(--yellow); color: #000; }
+  .trust-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+  .trust-badge {
+    background: rgba(255,255,255,.07); padding: 8px 12px; border-radius: 6px;
+    font-size: 11px; color: #fff; border: 1px solid rgba(255,255,255,.12);
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .trust-badge i { color: var(--yellow); }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,.1);
+    margin-top: 40px; padding: 18px 0;
+    text-align: center; font-size: 13px; color: #8fa0bc;
+  }
+
+  /* ============== FLOATING ============== */
+  .float-btns { position: fixed; right: 18px; bottom: 18px; display: flex; flex-direction: column; gap: 12px; z-index: 200; }
+  .float-btn {
+    width: 56px; height: 56px; border-radius: 50%;
+    display: grid; place-items: center;
+    color: #fff; font-size: 24px;
+    box-shadow: 0 8px 22px rgba(0,0,0,.25);
+    position: relative;
+  }
+  .float-btn::before {
+    content: ''; position: absolute; inset: 0;
+    border-radius: 50%; border: 2px solid currentColor;
+    animation: ring 1.8s ease-out infinite;
+  }
+  @keyframes ring {
+    0% { transform: scale(1); opacity: .7; }
+    100% { transform: scale(1.6); opacity: 0; }
+  }
+  .fb-call { background: var(--red); }
+  .fb-zalo { background: #0180ff; font-size: 12px; font-weight: 800; }
+  .fb-sms { background: #16a34a; }
+  .fb-mess { background: #0084ff; }
+
+  /* ============== RESPONSIVE ============== */
+  @media (max-width: 1100px) {
+    .hero .container { grid-template-columns: 1fr 1fr; }
+    .phone-col { grid-column: 1 / -1; flex-direction: row; justify-content: center; }
+  }
+  @media (max-width: 1024px) {
+    .header-contact { display: none; }
+    .hero-left h1 { font-size: 42px; }
+    .diamond-wrap { width: 360px; height: 360px; }
+    .d-tile { width: 170px; height: 170px; }
+    .d-tile.d1, .d-tile.d3 { margin-left: -85px; }
+    .d-tile.d2, .d-tile.d4 { margin-top: -85px; }
+    .d-center { width: 190px; height: 190px; margin: -95px 0 0 -95px; }
+    .d-center .pct { font-size: 54px; }
+    .benefits { grid-template-columns: repeat(3, 1fr); }
+    .cats-grid { grid-template-columns: repeat(3, 1fr); }
+    .process-grid { grid-template-columns: repeat(3, 1fr); gap: 30px; }
+    .process-grid::before { display: none; }
+    .region-grid { grid-template-columns: repeat(4, 1fr); }
+    .com-tiers { grid-template-columns: repeat(2, 1fr); }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 760px) {
+    .hero .container { grid-template-columns: 1fr; }
+    .hero-left h1 { font-size: 34px; }
+    .diamond-wrap { width: 300px; height: 300px; }
+    .d-tile { width: 140px; height: 140px; }
+    .d-tile.d1, .d-tile.d3 { margin-left: -70px; }
+    .d-tile.d2, .d-tile.d4 { margin-top: -70px; }
+    .d-center { width: 160px; height: 160px; margin: -80px 0 0 -80px; }
+    .d-center .pct { font-size: 42px; }
+    .d-center .pct i { font-size: 22px; }
+    .d-arrow { display: none; }
+    .phone-col { flex-direction: column; align-items: center; }
+    .hero-badges { grid-template-columns: repeat(2,1fr); }
+    .intro-grid, .contact-grid { grid-template-columns: 1fr; }
+    .intro-img { height: 320px; }
+    .intro ul { grid-template-columns: 1fr; }
+    .benefits { grid-template-columns: repeat(2, 1fr); }
+    .cats-grid { grid-template-columns: repeat(2, 1fr); }
+    .testi-grid, .news-grid { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 140px; }
+    .region-grid { grid-template-columns: repeat(2, 1fr); }
+    .com-tiers { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .nav-toggle { display: block; margin-left: auto; }
+    .nav-inner { display: none; flex-direction: column; width: 100%; }
+    .nav-inner.open { display: flex; }
+    .nav-inner > a { width: 100%; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.08); }
+    .nav-inner .today { width: 100%; margin: 0; }
+    .hero h1 { font-size: 30px; }
+    .hero-badges { grid-template-columns: repeat(2, 1fr); }
+    .section-head h2 { font-size: 26px; }
+    .cta-band { text-align: center; }
+    .cta-band .container { justify-content: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="left">
+      <span><i class="fa-regular fa-clock"></i> Làm việc 24/24 kể cả ngày lễ, Tết</span>
+      <span><i class="fa-solid fa-envelope"></i> Nguyenhung.Timexco@gmail.com</span>
+    </div>
+    <div>
+      <span><i class="fa-solid fa-location-dot"></i> 268 Nguyễn Thị Tú, P. Bình Tân, TP.HCM</span>
+      <span class="socials">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo-wrap">
+      <div class="logo-circle"><i class="fa-solid fa-recycle"></i></div>
+      <div class="logo-text">
+        <h1>PHẾ LIỆU <span>HƯNG THỊNH PHÁT</span></h1>
+        <p><i class="fa-solid fa-star"></i> Uy tín – Giá cao – Thu mua tận nơi 24/7</p>
+      </div>
+    </div>
+    <div class="header-contact">
+      <div class="hc-item">
+        <div class="ic"><i class="fa-solid fa-phone-volume"></i></div>
+        <div>
+          <small>Hotline 24/7</small>
+          <a href="tel:0933231777"><strong>0933.231.777</strong></a>
+        </div>
+      </div>
+      <div class="hc-item">
+        <div class="ic blue"><i class="fa-solid fa-user-tie"></i></div>
+        <div>
+          <small>Quản lý</small>
+          <strong style="color:var(--blue-dark)">Mr. Hùng</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav class="main-nav">
+  <div class="container" style="display:flex; align-items:center;">
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    <div class="nav-inner" id="navInner">
+      <a href="#home" class="home"><i class="fa-solid fa-house"></i>Trang Chủ</a>
+      <a href="#about"><i class="fa-solid fa-circle-info"></i>Giới Thiệu</a>
+      <a href="#services"><i class="fa-solid fa-truck"></i>Thu Mua Phế Liệu</a>
+      <a href="#bang-gia"><i class="fa-solid fa-dollar-sign"></i>Bảng Giá</a>
+      <a href="#quy-trinh"><i class="fa-solid fa-list-check"></i>Quy Trình</a>
+      <a href="#tin-tuc"><i class="fa-solid fa-newspaper"></i>Tin Tức</a>
+      <a href="#contact"><i class="fa-solid fa-headset"></i>Liên Hệ</a>
+      <span class="today"><i class="fa-solid fa-circle-dot"></i>Cập nhật 20/04/2026</span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO (Miền Nam style — diamond photo grid) -->
+<section class="hero" id="home">
+  <div class="container">
+    <!-- LEFT column: text block -->
+    <div class="hero-left">
+      <span class="pre">Công Ty Thu Mua</span>
+      <h1 class="display">PHẾ LIỆU <br/><span class="nam">HƯNG THỊNH PHÁT</span></h1>
+      <p class="lead">Thu mua tất cả phế liệu hiện nay như: <b>sắt, thép, đồng, kẽm, nhôm, inox, máy móc, xác nhà, vải vụn, nhựa,...</b> Giám định chuyên nghiệp — cân đo minh bạch — thanh toán liền tay 24/7.</p>
+
+      <div class="pay-row">
+        <div class="pay-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+        <div>
+          <span class="lbl">Thanh Toán Liền Tay</span>
+          <a class="num" href="tel:0933231777">0933 231 777</a>
+        </div>
+      </div>
+
+      <div class="chiet-khau">
+        <i class="fa-solid fa-gift"></i>
+        <span>Chiết khấu hấp dẫn cho người giới thiệu — Hoa hồng lên tới <b style="color:var(--red)">500 triệu</b></span>
+      </div>
+
+      <!-- 4 trust badges -->
+      <div class="hero-badges">
+        <div class="hb red"><i class="fa-solid fa-bolt"></i><span>NHANH CHÓNG</span></div>
+        <div class="hb"><i class="fa-solid fa-shield-halved"></i><span>UY TÍN</span></div>
+        <div class="hb red"><i class="fa-solid fa-money-bill-wave"></i><span>TIỀN MẶT</span></div>
+        <div class="hb"><i class="fa-solid fa-location-crosshairs"></i><span>TẬN NƠI</span></div>
+      </div>
+    </div>
+
+    <!-- CENTER: diamond photo grid + 30% badge -->
+    <div>
+      <div class="diamond-wrap">
+        <div class="d-tile d1" style="background-image:url('https://images.unsplash.com/photo-1605152276897-4f618f831968?auto=format&fit=crop&w=600&q=70');"></div>
+        <div class="d-tile d2" style="background-image:url('https://images.unsplash.com/photo-1601058268499-e52658b8bb88?auto=format&fit=crop&w=600&q=70');"></div>
+        <div class="d-tile d3" style="background-image:url('https://images.unsplash.com/photo-1567361808960-dec9cb578182?auto=format&fit=crop&w=600&q=70');"></div>
+        <div class="d-tile d4" style="background-image:url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=600&q=70');"></div>
+        <div class="d-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+        <div class="d-center">
+          <div>
+            <div class="cao">Cao Hơn</div>
+            <div class="thi">Thị Trường</div>
+            <div class="pct">30<i>%</i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: two phone callouts -->
+    <div class="phone-col">
+      <a href="tel:0933231777" class="phone-pill">
+        <div class="ring"><i class="fa-solid fa-phone"></i></div>
+        <div>
+          <small>Hotline 24/7</small>
+          <b>0933.231.777</b>
+        </div>
+      </a>
+      <a href="tel:0933231777" class="phone-pill blue">
+        <div class="ring"><i class="fa-solid fa-user-tie"></i></div>
+        <div>
+          <small>Mr. Hùng</small>
+          <b>0933.231.777</b>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- RUNNING STRIP -->
+<div class="runstrip">
+  <div class="runstrip-inner">
+    <span><i class="fa-solid fa-check-double"></i> Cam kết giá cao hơn thị trường 30%</span>
+    <span><i class="fa-solid fa-check-double"></i> Thu mua tận nơi toàn quốc</span>
+    <span><i class="fa-solid fa-check-double"></i> Thanh toán tiền mặt liền tay</span>
+    <span><i class="fa-solid fa-check-double"></i> Hoa hồng giới thiệu tới 500 triệu</span>
+    <span><i class="fa-solid fa-check-double"></i> Làm việc 24/24 kể cả ngày lễ, Tết</span>
+    <span><i class="fa-solid fa-check-double"></i> Hỗ trợ bốc vác miễn phí</span>
+    <!-- repeat for seamless loop -->
+    <span><i class="fa-solid fa-check-double"></i> Cam kết giá cao hơn thị trường 30%</span>
+    <span><i class="fa-solid fa-check-double"></i> Thu mua tận nơi toàn quốc</span>
+    <span><i class="fa-solid fa-check-double"></i> Thanh toán tiền mặt liền tay</span>
+    <span><i class="fa-solid fa-check-double"></i> Hoa hồng giới thiệu tới 500 triệu</span>
+    <span><i class="fa-solid fa-check-double"></i> Làm việc 24/24 kể cả ngày lễ, Tết</span>
+    <span><i class="fa-solid fa-check-double"></i> Hỗ trợ bốc vác miễn phí</span>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="intro" id="about">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-img-wrap">
+        <div class="intro-img">
+          <img src="https://images.unsplash.com/photo-1567361808960-dec9cb578182?auto=format&fit=crop&w=1000&q=70" alt="Bãi phế liệu Hưng Thịnh Phát" />
+        </div>
+        <div class="intro-img-small">
+          <img src="https://images.unsplash.com/photo-1605152276897-4f618f831968?auto=format&fit=crop&w=400&q=70" alt="Phế liệu sắt thép" />
+        </div>
+        <div class="intro-years">
+          <b>15+</b>
+          <span>Năm kinh nghiệm</span>
+        </div>
+      </div>
+      <div>
+        <span class="sub"><i class="fa-solid fa-angles-right"></i> Giới Thiệu Công Ty</span>
+        <h2 class="display">CÔNG TY THU MUA<br/>PHẾ LIỆU <span>HƯNG THỊNH PHÁT</span></h2>
+        <p>Hưng Thịnh Phát tự hào là đơn vị tiên phong trong lĩnh vực thu mua, xử lý và tái chế phế liệu tại TP.HCM và các tỉnh lân cận. Với hơn <b>15 năm kinh nghiệm</b>, chúng tôi đã hợp tác cùng hàng nghìn doanh nghiệp, công trình xây dựng, nhà máy và hộ gia đình.</p>
+        <p>Chúng tôi cam kết <b style="color:var(--red)">giá cao hơn thị trường đến 30%</b>, thanh toán liền tay, thu mua tận nơi — kể cả ngày nghỉ, lễ, Tết.</p>
+        <ul>
+          <li><i class="fa-solid fa-circle-check"></i><span>Giá thu mua cao nhất TP.HCM</span></li>
+          <li><i class="fa-solid fa-circle-check"></i><span>Cân đo minh bạch, chính xác</span></li>
+          <li><i class="fa-solid fa-circle-check"></i><span>Thanh toán tiền mặt / chuyển khoản</span></li>
+          <li><i class="fa-solid fa-circle-check"></i><span>Hỗ trợ bốc vác miễn phí</span></li>
+          <li><i class="fa-solid fa-circle-check"></i><span>Kiểm định chuyên nghiệp</span></li>
+          <li><i class="fa-solid fa-circle-check"></i><span>Hoa hồng giới thiệu 500 triệu</span></li>
+        </ul>
+        <div class="intro-cta">
+          <a href="tel:0933231777" class="btn btn-red"><i class="fa-solid fa-phone-volume"></i> Hotline: 0933.231.777</a>
+          <a href="#contact" class="btn btn-blue"><i class="fa-regular fa-paper-plane"></i> Yêu Cầu Báo Giá</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 BENEFITS -->
+<section class="alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Cam Kết Dịch Vụ</span>
+      <h2 class="display">VÌ SAO CHỌN <span>HƯNG THỊNH PHÁT</span>?</h2>
+      <div class="bar"></div>
+      <p>6 cam kết vàng giúp khách hàng yên tâm tuyệt đối khi bán phế liệu cho chúng tôi</p>
+    </div>
+    <div class="benefits">
+      <div class="bf-card">
+        <div class="bf-ic"><i class="fa-solid fa-sack-dollar"></i></div>
+        <h4>Giá Cao Nhất</h4>
+        <p>Cam kết cao hơn thị trường 30%, cập nhật giá hàng ngày theo sàn LME.</p>
+      </div>
+      <div class="bf-card">
+        <div class="bf-ic"><i class="fa-solid fa-clock"></i></div>
+        <h4>24/7 - 365 Ngày</h4>
+        <p>Làm việc cả ngày lễ, Tết, Chủ nhật. Có mặt trong 30 phút nội thành.</p>
+      </div>
+      <div class="bf-card">
+        <div class="bf-ic"><i class="fa-solid fa-truck-fast"></i></div>
+        <h4>Thu Mua Tận Nơi</h4>
+        <p>Đội xe tải, nhân công hỗ trợ bốc vác miễn phí, không phát sinh phí.</p>
+      </div>
+      <div class="bf-card">
+        <div class="bf-ic"><i class="fa-solid fa-scale-balanced"></i></div>
+        <h4>Cân Đo Minh Bạch</h4>
+        <p>Cân điện tử kiểm định, phân loại công khai trước mặt khách hàng.</p>
+      </div>
+      <div class="bf-card">
+        <div class="bf-ic"><i class="fa-solid fa-money-check-dollar"></i></div>
+        <h4>Thanh Toán Ngay</h4>
+        <p>Tiền mặt hoặc chuyển khoản trong 5 phút. Không nợ, không hẹn lần.</p>
+      </div>
+      <div class="bf-card">
+        <div class="bf-ic"><i class="fa-solid fa-gift"></i></div>
+        <h4>Hoa Hồng Cao</h4>
+        <p>Hoa hồng giới thiệu lên đến 500 triệu. Chiết khấu hấp dẫn cho khách VIP.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Dịch Vụ Nổi Bật</span>
+      <h2 class="display">CÁC LOẠI PHẾ LIỆU <span>THU MUA</span></h2>
+      <div class="bar"></div>
+      <p>Hưng Thịnh Phát thu mua mọi loại phế liệu với giá cao nhất. Đội ngũ kiểm định chuyên nghiệp, thanh toán ngay tại chỗ.</p>
+    </div>
+    <div class="cats-grid">
+      <div class="cat">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1605152276897-4f618f831968?auto=format&fit=crop&w=700&q=70');">
+          <span class="rib-price">Từ 12.000đ/kg</span>
+          <span class="title-on-img">Sắt Thép</span>
+        </div>
+        <div class="body">
+          <p>Sắt vụn, sắt đặc, sắt công trình, thép ống, thép tấm, thép hình U/I/V.</p>
+          <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="cat">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1601058268499-e52658b8bb88?auto=format&fit=crop&w=700&q=70');">
+          <span class="rib-price">Từ 215.000đ/kg</span>
+          <span class="title-on-img">Đồng</span>
+        </div>
+        <div class="body">
+          <p>Đồng đỏ, đồng vàng, đồng cháy, dây điện đồng, đồng thau, hợp kim đồng.</p>
+          <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="cat">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=70');">
+          <span class="rib-price">Từ 48.000đ/kg</span>
+          <span class="title-on-img">Nhôm</span>
+        </div>
+        <div class="body">
+          <p>Nhôm đặc, nhôm dẻo, nhôm hợp kim, nhôm mảnh, nhôm máy móc, lon.</p>
+          <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="cat">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=700&q=70');">
+          <span class="rib-price">Từ 28.000đ/kg</span>
+          <span class="title-on-img">Inox</span>
+        </div>
+        <div class="body">
+          <p>Inox 201, 304, 316, inox phế phẩm, phôi inox, ống inox công nghiệp.</p>
+          <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="cat">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=700&q=70');">
+          <span class="rib-price">Liên hệ</span>
+          <span class="title-on-img">Máy Móc - Xác Nhà</span>
+        </div>
+        <div class="body">
+          <p>Máy móc cũ, nhà xưởng, xác nhà, thiết bị công nghiệp, dây chuyền sản xuất.</p>
+          <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="cat">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=700&q=70');">
+          <span class="rib-price">Từ 30.000đ/kg</span>
+          <span class="title-on-img">Hợp Kim - Chì Kẽm</span>
+        </div>
+        <div class="body">
+          <p>Hợp kim các loại, chì, kẽm, thiếc, niken, các kim loại quý giá trị cao.</p>
+          <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="cat">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1550684376-efcbd6e3f031?auto=format&fit=crop&w=700&q=70');">
+          <span class="rib-price">Liên hệ</span>
+          <span class="title-on-img">Điện Tử Cũ</span>
+        </div>
+        <div class="body">
+          <p>Bo mạch, linh kiện điện tử, máy in, máy photo, thiết bị văn phòng.</p>
+          <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="cat">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1604187351574-c75ca79f5807?auto=format&fit=crop&w=700&q=70');">
+          <span class="rib-price">Từ 3.500đ/kg</span>
+          <span class="title-on-img">Nhựa - Giấy - Vải</span>
+        </div>
+        <div class="body">
+          <p>Nhựa PP, PE, ABS, giấy carton, vải vụn, giấy vụn công nghiệp.</p>
+          <a href="#">Xem chi tiết <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICE TABLE + COMMISSION -->
+<section id="bang-gia" class="alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Cập Nhật 20/04/2026</span>
+      <h2 class="display">BẢNG GIÁ THU MUA PHẾ LIỆU <span>HÔM NAY</span></h2>
+      <div class="bar"></div>
+      <p>Giá thu mua tham khảo, cập nhật theo sàn LME mỗi ngày. Gọi <b style="color:var(--red)">0933.231.777</b> để nhận báo giá chính xác nhất theo số lượng của bạn.</p>
+    </div>
+    <div class="price-wrap">
+      <div class="head-band">
+        <h3><i class="fa-solid fa-tags"></i> Bảng Giá Phế Liệu Cập Nhật 20/04/2026</h3>
+        <span>Cập nhật 1h trước</span>
+      </div>
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th style="width:30%">Loại Phế Liệu</th>
+            <th>Mô Tả</th>
+            <th>Đơn Vị</th>
+            <th style="text-align:right; padding-right:24px">Giá Thu Mua</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-industry"></i></span>Sắt đặc</td><td>Sắt xây dựng, sắt công trình, phôi</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">12.000 - 15.000 <small>Cao hơn thị trường 30%</small></td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-screwdriver-wrench"></i></span>Sắt vụn, sắt gỉ</td><td>Sắt mỏng, sắt mái tôn cũ</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">8.000 - 11.000</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-bolt"></i></span>Đồng đỏ</td><td>Đồng nguyên chất, dây điện đồng</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">215.000 - 245.000</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-bolt"></i></span>Đồng vàng</td><td>Đồng thau, đồng hợp kim</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">145.000 - 170.000</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-circle-nodes"></i></span>Nhôm đặc</td><td>Nhôm thanh, nhôm profile</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">48.000 - 58.000</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-circle-nodes"></i></span>Nhôm dẻo / lon</td><td>Nhôm mảnh, lon nước ngọt</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">25.000 - 38.000</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-gears"></i></span>Inox 304</td><td>Inox cao cấp</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">35.000 - 45.000</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-gears"></i></span>Inox 201</td><td>Inox thường</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">18.000 - 28.000</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-plug"></i></span>Chì / Kẽm / Thiếc</td><td>Chì thỏi, kẽm lá, thiếc hàn</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">30.000 - 42.000</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-recycle"></i></span>Nhựa PP / PE</td><td>Nhựa công nghiệp sạch</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">5.000 - 12.000</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-box"></i></span>Giấy carton</td><td>Thùng, giấy văn phòng</td><td>VNĐ/kg</td><td class="pr" style="text-align:right; padding-right:24px">3.500 - 5.500</td></tr>
+          <tr><td class="lbl"><span class="mini"><i class="fa-solid fa-truck-monster"></i></span>Máy móc / Xác nhà</td><td>Tháo dỡ trọn gói tại công trình</td><td>Trọn gói</td><td class="pr" style="text-align:right; padding-right:24px">Liên hệ</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="price-note"><i class="fa-solid fa-circle-info"></i> Giá cập nhật lúc 08:00 ngày 20/04/2026. Số lượng lớn có giá ưu đãi riêng. Gọi <b style="color:var(--red)">0933.231.777</b> để báo giá trực tiếp.</p>
+
+    <!-- Commission tiers -->
+    <div class="commission">
+      <h3 class="display"><i class="fa-solid fa-gift"></i> HOA HỒNG GIỚI THIỆU <span>LÊN ĐẾN 500 TRIỆU</span></h3>
+      <p>Chính sách hoa hồng hấp dẫn nhất thị trường dành cho khách giới thiệu hợp đồng thành công</p>
+      <div class="com-tiers">
+        <div class="tier">
+          <small>Hợp đồng từ</small>
+          <span class="amt">10 Triệu</span>
+          <p>Hoa hồng <b style="color:var(--yellow)">500.000đ</b></p>
+        </div>
+        <div class="tier">
+          <small>Hợp đồng từ</small>
+          <span class="amt">100 Triệu</span>
+          <p>Hoa hồng <b style="color:var(--yellow)">5.000.000đ</b></p>
+        </div>
+        <div class="tier">
+          <small>Hợp đồng từ</small>
+          <span class="amt">1 Tỷ</span>
+          <p>Hoa hồng <b style="color:var(--yellow)">50.000.000đ</b></p>
+        </div>
+        <div class="tier">
+          <small>Hợp đồng từ</small>
+          <span class="amt">10 Tỷ</span>
+          <p>Hoa hồng <b style="color:var(--yellow)">500.000.000đ</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <div class="container">
+    <h2 class="display">GỌI NGAY ĐỂ NHẬN BÁO GIÁ<br/><small>Phản hồi trong 1 phút — Thu mua tận nơi trong 30 phút</small></h2>
+    <a href="tel:0933231777" class="phone-big"><i class="fa-solid fa-phone-volume"></i> 0933.231.777</a>
+  </div>
+</div>
+
+<!-- PROCESS -->
+<section id="quy-trinh">
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Quy Trình Làm Việc</span>
+      <h2 class="display">5 BƯỚC THU MUA <span>CHUYÊN NGHIỆP</span></h2>
+      <div class="bar"></div>
+      <p>Quy trình thu mua phế liệu khép kín, minh bạch, nhanh chóng từ khi tiếp nhận thông tin đến khi thanh toán</p>
+    </div>
+    <div class="process-grid">
+      <div class="ps">
+        <div class="n">1</div>
+        <i class="fa-solid fa-phone-volume"></i>
+        <h4>Tiếp Nhận</h4>
+        <p>Khách gọi hotline hoặc gửi form. Báo giá sơ bộ trong 1-2 phút.</p>
+      </div>
+      <div class="ps">
+        <div class="n">2</div>
+        <i class="fa-solid fa-truck-fast"></i>
+        <h4>Khảo Sát</h4>
+        <p>Đội ngũ đến tận nơi, kiểm tra - phân loại - chốt giá chính thức.</p>
+      </div>
+      <div class="ps">
+        <div class="n">3</div>
+        <i class="fa-solid fa-weight-scale"></i>
+        <h4>Cân Đo</h4>
+        <p>Cân điện tử minh bạch trước mặt khách. Có phiếu ghi nhận.</p>
+      </div>
+      <div class="ps">
+        <div class="n">4</div>
+        <i class="fa-solid fa-money-check-dollar"></i>
+        <h4>Thanh Toán</h4>
+        <p>Tiền mặt hoặc chuyển khoản liền tay. Không hẹn lại, không nợ.</p>
+      </div>
+      <div class="ps">
+        <div class="n">5</div>
+        <i class="fa-solid fa-truck-ramp-box"></i>
+        <h4>Vận Chuyển</h4>
+        <p>Bốc vác, dọn dẹp sạch sẽ, vận chuyển miễn phí về kho.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Hình Ảnh Thực Tế</span>
+      <h2 class="display">BÃI PHẾ LIỆU & <span>KHO BÃI</span></h2>
+      <div class="bar"></div>
+    </div>
+    <div class="gallery-grid">
+      <div class="g-item big" style="background-image:url('https://images.unsplash.com/photo-1567361808960-dec9cb578182?auto=format&fit=crop&w=900&q=70');"></div>
+      <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1605152276897-4f618f831968?auto=format&fit=crop&w=500&q=70');"></div>
+      <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=500&q=70');"></div>
+      <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1601058268499-e52658b8bb88?auto=format&fit=crop&w=500&q=70');"></div>
+      <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=500&q=70');"></div>
+      <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=500&q=70');"></div>
+      <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=500&q=70');"></div>
+      <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1604187351574-c75ca79f5807?auto=format&fit=crop&w=500&q=70');"></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Khách Hàng Nói Gì</span>
+      <h2 class="display">HÀNG NGÀN KHÁCH HÀNG <span>TIN TƯỞNG</span></h2>
+      <div class="bar"></div>
+    </div>
+    <div class="testi-grid">
+      <div class="testi">
+        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p>"Mình bán lô sắt công trình gần 10 tấn cho anh Hùng, giá cao hơn 3 chỗ khác báo. Cân đo rất minh bạch, thanh toán ngay tại chỗ bằng chuyển khoản. Uy tín!"</p>
+        <div class="who">
+          <img src="https://i.pravatar.cc/96?img=13" alt="" />
+          <div>
+            <b>Anh Minh</b>
+            <small>Chủ thầu xây dựng, Q. Bình Tân</small>
+          </div>
+        </div>
+      </div>
+      <div class="testi">
+        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p>"Nhà máy mình thanh lý dây chuyền cũ, Hưng Thịnh Phát đưa đội tháo dỡ chuyên nghiệp. Xong xuôi chỉ trong 2 ngày, dọn dẹp sạch sẽ. Giá tốt hơn các bên 20-30%."</p>
+        <div class="who">
+          <img src="https://i.pravatar.cc/96?img=25" alt="" />
+          <div>
+            <b>Chị Thu Hà</b>
+            <small>Giám đốc Cty dệt may, Bình Dương</small>
+          </div>
+        </div>
+      </div>
+      <div class="testi">
+        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p>"Gọi hotline lúc 10h tối, 30 phút sau có xe đến nhà. Thu mua đủ các loại đồng, nhôm, inox. Bác Hùng rất dễ chịu, không ép giá. Sẽ giới thiệu bạn bè."</p>
+        <div class="who">
+          <img src="https://i.pravatar.cc/96?img=56" alt="" />
+          <div>
+            <b>Anh Tuấn</b>
+            <small>Chủ xưởng cơ khí, Tân Phú</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section id="tin-tuc" class="alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Tin Tức - Blog</span>
+      <h2 class="display">TIN TỨC <span>PHẾ LIỆU MỚI NHẤT</span></h2>
+      <div class="bar"></div>
+    </div>
+    <div class="news-grid">
+      <article class="news">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1605152276897-4f618f831968?auto=format&fit=crop&w=700&q=70');">
+          <div class="date"><b>20</b><span>04</span></div>
+        </div>
+        <div class="body">
+          <div class="meta"><i class="fa-regular fa-user"></i> Admin <span style="margin:0 8px">|</span> <i class="fa-regular fa-folder"></i> Bảng giá</div>
+          <h4>Bảng giá phế liệu sắt thép cập nhật hôm nay 20/04/2026</h4>
+          <p>Giá sắt thép hôm nay tiếp tục tăng nhẹ theo đà của sàn LME. Cập nhật chi tiết các loại...</p>
+          <a href="#">Đọc tiếp <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="news">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1601058268499-e52658b8bb88?auto=format&fit=crop&w=700&q=70');">
+          <div class="date"><b>18</b><span>04</span></div>
+        </div>
+        <div class="body">
+          <div class="meta"><i class="fa-regular fa-user"></i> Admin <span style="margin:0 8px">|</span> <i class="fa-regular fa-folder"></i> Kiến thức</div>
+          <h4>Cách phân biệt đồng đỏ, đồng vàng, đồng thau chuẩn xác</h4>
+          <p>Hướng dẫn chi tiết cách phân biệt các loại đồng để bán được đúng giá, tránh bị ép giá...</p>
+          <a href="#">Đọc tiếp <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="news">
+        <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=700&q=70');">
+          <div class="date"><b>15</b><span>04</span></div>
+        </div>
+        <div class="body">
+          <div class="meta"><i class="fa-regular fa-user"></i> Admin <span style="margin:0 8px">|</span> <i class="fa-regular fa-folder"></i> Dịch vụ</div>
+          <h4>Quy trình tháo dỡ xác nhà xưởng an toàn, chuyên nghiệp</h4>
+          <p>Tháo dỡ nhà xưởng không chỉ cần kỹ thuật mà còn phải đảm bảo an toàn lao động...</p>
+          <a href="#">Đọc tiếp <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Câu Hỏi Thường Gặp</span>
+      <h2 class="display">GIẢI ĐÁP <span>THẮC MẮC</span></h2>
+      <div class="bar"></div>
+    </div>
+    <div class="faq">
+      <div class="faq-item open">
+        <div class="faq-q">Giá thu mua phế liệu của Hưng Thịnh Phát có cao không? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Chúng tôi cam kết giá thu mua <b>cao hơn thị trường 30%</b>. Giá được cập nhật hằng ngày theo sàn LME quốc tế. Với đơn hàng số lượng lớn, chúng tôi có chính sách giá ưu đãi đặc biệt.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Có thu mua tận nơi không? Phí vận chuyển như thế nào? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Có. Chúng tôi có đội xe tải và nhân công sẵn sàng đến tận công trình, kho xưởng, nhà riêng để thu mua. <b>Miễn phí vận chuyển và bốc vác</b> trong phạm vi TP.HCM và các tỉnh lân cận.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Thời gian thanh toán ra sao? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Thanh toán <b>liền tay ngay tại chỗ</b> sau khi hoàn tất cân đo. Khách có thể chọn tiền mặt hoặc chuyển khoản, chúng tôi cam kết không nợ, không hẹn lại.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Hưng Thịnh Phát có thu mua vào ngày lễ, Tết không? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Có. Chúng tôi hoạt động <b>24/24 kể cả ngày nghỉ, lễ, Tết</b>. Bạn có thể gọi hotline 0933.231.777 bất cứ khi nào cần.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Chính sách hoa hồng cho người giới thiệu? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Hoa hồng từ <b>500.000đ đến 500.000.000đ</b> tùy theo giá trị hợp đồng giới thiệu. Hoa hồng được thanh toán ngay sau khi hợp đồng hoàn tất.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Khu vực thu mua của Hưng Thịnh Phát? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Chúng tôi thu mua trên <b>toàn quốc</b>, đặc biệt tập trung tại TP.HCM, Bình Dương, Đồng Nai, Long An, Bà Rịa - Vũng Tàu và các tỉnh miền Nam - miền Tây.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REGIONS -->
+<section class="alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Khu Vực Thu Mua</span>
+      <h2 class="display">THU MUA PHẾ LIỆU <span>TOÀN QUỐC</span></h2>
+      <div class="bar"></div>
+      <p>Chi nhánh và đội xe sẵn sàng phục vụ tại 63 tỉnh thành</p>
+    </div>
+    <div class="region-grid">
+      <a href="#"><i class="fa-solid fa-location-dot"></i> TP. Hồ Chí Minh</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Hà Nội</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Đà Nẵng</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Bình Dương</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Đồng Nai</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Long An</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Bà Rịa - Vũng Tàu</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Tây Ninh</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Bình Phước</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Tiền Giang</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Cần Thơ</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> An Giang</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Vĩnh Long</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Đồng Tháp</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Kiên Giang</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Cà Mau</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Bến Tre</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Trà Vinh</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Sóc Trăng</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Bạc Liêu</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Hậu Giang</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Bình Thuận</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Ninh Thuận</a>
+      <a href="#"><i class="fa-solid fa-location-dot"></i> Khánh Hòa</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="rib">Liên Hệ</span>
+      <h2 class="display">LIÊN HỆ NGAY <span>HƯNG THỊNH PHÁT</span></h2>
+      <div class="bar"></div>
+      <p>Điền thông tin bên dưới hoặc gọi hotline — chúng tôi phản hồi trong vòng 1 phút</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3 class="display">THÔNG TIN <span>LIÊN HỆ</span></h3>
+        <div class="ci-item">
+          <i class="fa-solid fa-building"></i>
+          <div>
+            <strong>Công Ty</strong>
+            <small>CTY TNHH Thu Mua Phế Liệu Hưng Thịnh Phát</small>
+          </div>
+        </div>
+        <div class="ci-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <strong>Địa Chỉ</strong>
+            <small>268 Nguyễn Thị Tú, P. Bình Tân, TP.HCM</small>
+          </div>
+        </div>
+        <div class="ci-item">
+          <i class="fa-solid fa-phone-volume"></i>
+          <div>
+            <strong>Hotline - Mr. Hùng</strong>
+            <small><a href="tel:0933231777" style="font-size:18px; color:var(--yellow);">0933.231.777</a></small>
+          </div>
+        </div>
+        <div class="ci-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <strong>Email</strong>
+            <small>Nguyenhung.Timexco@gmail.com</small>
+          </div>
+        </div>
+        <div class="ci-item">
+          <i class="fa-solid fa-globe"></i>
+          <div>
+            <strong>Website</strong>
+            <small>phelieuhungthinhphat.com</small>
+          </div>
+        </div>
+        <div class="ci-item">
+          <i class="fa-regular fa-clock"></i>
+          <div>
+            <strong>Giờ Làm Việc</strong>
+            <small>24/24 - Kể cả Thứ 7, Chủ nhật & ngày lễ</small>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Cảm ơn bạn! Chúng tôi sẽ liên hệ ngay trong ít phút.'); this.reset();">
+        <h3 class="display">GỬI YÊU CẦU <span>BÁO GIÁ</span></h3>
+        <div class="form-row">
+          <input type="text" placeholder="Họ và tên *" required />
+          <input type="tel" placeholder="Số điện thoại *" required />
+        </div>
+        <input type="text" placeholder="Địa chỉ có phế liệu cần bán" />
+        <select>
+          <option>-- Loại phế liệu cần bán --</option>
+          <option>Sắt thép</option>
+          <option>Đồng</option>
+          <option>Nhôm</option>
+          <option>Inox</option>
+          <option>Máy móc / Xác nhà</option>
+          <option>Hợp kim / Chì / Kẽm</option>
+          <option>Nhựa / Giấy / Vải</option>
+          <option>Khác</option>
+        </select>
+        <textarea rows="4" placeholder="Mô tả số lượng, tình trạng phế liệu..."></textarea>
+        <button type="submit" class="btn btn-red"><i class="fa-solid fa-paper-plane"></i> GỬI YÊU CẦU BÁO GIÁ</button>
+      </form>
+    </div>
+
+    <div class="map-wrap">
+      <iframe src="https://www.google.com/maps?q=268+Nguyen+Thi+Tu,+Binh+Tan,+Ho+Chi+Minh+City&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo-wrap" style="margin-bottom:16px;">
+          <div class="logo-circle" style="width:56px; height:56px; font-size:24px;"><i class="fa-solid fa-recycle"></i></div>
+          <div class="logo-text">
+            <h1 style="font-size:20px; color:#fff;">PHẾ LIỆU <span>HƯNG THỊNH PHÁT</span></h1>
+            <p style="color:#c2d1ea;">Thu mua phế liệu giá cao 24/7</p>
+          </div>
+        </div>
+        <p style="font-size:14px; margin-bottom:14px; line-height:1.7;">
+          Công ty Thu Mua Phế Liệu Hưng Thịnh Phát — Đơn vị thu mua phế liệu giá cao nhất, uy tín, tận nơi tại TP.HCM và toàn quốc. Hơn 15 năm kinh nghiệm.
+        </p>
+        <div class="footer-socials">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="trust-row">
+          <span class="trust-badge"><i class="fa-solid fa-shield-halved"></i> DMCA Protected</span>
+          <span class="trust-badge"><i class="fa-solid fa-certificate"></i> ĐKKD: 0316xxxxxx</span>
+        </div>
+      </div>
+      <div>
+        <h4>Dịch Vụ</h4>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Thu mua sắt thép</a></li>
+          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Thu mua đồng</a></li>
+          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Thu mua nhôm</a></li>
+          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Thu mua inox</a></li>
+          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Thu mua máy móc</a></li>
+          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Tháo dỡ xác nhà</a></li>
+          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Thu mua hợp kim</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Liên Kết</h4>
+        <ul>
+          <li><a href="#home"><i class="fa-solid fa-angle-right"></i> Trang chủ</a></li>
+          <li><a href="#about"><i class="fa-solid fa-angle-right"></i> Giới thiệu</a></li>
+          <li><a href="#bang-gia"><i class="fa-solid fa-angle-right"></i> Bảng giá hôm nay</a></li>
+          <li><a href="#quy-trinh"><i class="fa-solid fa-angle-right"></i> Quy trình</a></li>
+          <li><a href="#tin-tuc"><i class="fa-solid fa-angle-right"></i> Tin tức</a></li>
+          <li><a href="#contact"><i class="fa-solid fa-angle-right"></i> Liên hệ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Liên Hệ</h4>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> 268 Nguyễn Thị Tú, P. Bình Tân, TP.HCM</li>
+          <li><i class="fa-solid fa-phone"></i> <a href="tel:0933231777" style="color:var(--yellow);font-weight:800;">0933.231.777</a> (Mr. Hùng)</li>
+          <li><i class="fa-solid fa-envelope"></i> Nguyenhung.Timexco@gmail.com</li>
+          <li><i class="fa-solid fa-globe"></i> phelieuhungthinhphat.com</li>
+          <li><i class="fa-regular fa-clock"></i> Mở cửa 24/7 kể cả ngày lễ</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Công Ty TNHH Thu Mua Phế Liệu Hưng Thịnh Phát. Bản quyền thuộc về Hưng Thịnh Phát. | Thiết kế bởi Hưng Thịnh Phát.
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<div class="float-btns">
+  <a href="tel:0933231777" class="float-btn fb-call" title="Gọi ngay"><i class="fa-solid fa-phone"></i></a>
+  <a href="https://zalo.me/0933231777" class="float-btn fb-zalo" title="Chat Zalo">Zalo</a>
+  <a href="sms:0933231777" class="float-btn fb-sms" title="Nhắn SMS"><i class="fa-solid fa-comment-sms"></i></a>
+  <a href="#" class="float-btn fb-mess" title="Messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
+</div>
+
+<script>
+  // Mobile nav toggle
+  document.getElementById('navToggle').addEventListener('click', () => {
+    document.getElementById('navInner').classList.toggle('open');
+  });
+  // FAQ accordion
+  document.querySelectorAll('.faq-item').forEach(item => {
+    item.querySelector('.faq-q').addEventListener('click', () => {
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(x => x.classList.remove('open'));
+      if (!wasOpen) item.classList.add('open');
+    });
+  });
+</script>
+
+</body>
+</html>
