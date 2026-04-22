@@ -78,13 +78,23 @@
 
 > Dạ để chú dễ so sánh, cháu nói luôn các mức giá trên thị trường cho chú biết:
 
-### Gói A — Tự làm
+### Gói A — Chú TỰ thuê dịch vụ website sẵn
 
-> Nếu chú **tự lên mạng đăng ký một dịch vụ làm website kéo thả** — kiểu Haravan, Sapo Web bên Việt Nam, hoặc Wix bên nước ngoài — chú tự chọn mẫu có sẵn rồi gắn thông tin vô, tốn khoảng **500 nghìn đến 1 triệu một năm**. Nhưng giao diện xấu, nhìn giống mấy trăm công ty khác cùng xài cái mẫu đó.
+> Cái này giống như chú **đi ở trọ** chú. Chú lên mạng đăng ký một dịch vụ như Haravan, Sapo Web bên Việt Nam, hoặc Wix bên nước ngoài. Họ có sẵn một cái sườn website, chú tự kéo thả hình ảnh, tự nhập thông tin vô — giống như chú thuê một phòng trọ có sẵn giường tủ, chú chỉ bày đồ cá nhân vô thôi.
+>
+> Tốn khoảng **500 nghìn đến 1 triệu một năm**, chú phải đóng hoài hoài.
+>
+> **Bất lợi lớn:** Một là giao diện xấu, giống mấy trăm công ty khác cùng xài mẫu đó. Hai là chú không sở hữu website thật sự — nếu ngày nào chú ngừng đóng tiền, hoặc bên đó sập, **website của chú biến mất liền**, giống như chú bị đuổi khỏi phòng trọ. Ba là chú tốn thời gian lắm vì tự làm mà chú đâu phải dân kỹ thuật.
 
-### Gói B — WordPress dùng mẫu có sẵn
+### Gói B — Thuê người làm website theo mẫu có sẵn
 
-> Nếu thuê người làm tự do **làm WordPress dùng mẫu giao diện có sẵn** — họ tải một cái mẫu miễn phí trên mạng về, gắn thông tin chú vô — khoảng **3 đến 4 triệu**, nhưng website nhìn na ná mấy chục bên phế liệu khác, không nổi bật.
+> Cái này giống như chú **xây nhà nhưng dùng bản vẽ mẫu của người khác**. Chú thuê một người làm tự do, họ lên mạng tải một cái mẫu WordPress miễn phí về — cái mẫu này đã có sẵn cấu trúc, hình ảnh, bố cục — rồi họ chỉ việc thay tên chú, đổi số điện thoại, đổi hình đại diện thành của chú.
+>
+> Giá khoảng **3 đến 4 triệu**, **chỉ trả một lần**.
+>
+> **Khác gói A ở chỗ:** Ở đây chú SỞ HỮU website thật, giống như chú có cái nhà đứng tên chú, dù nhà xây theo bản vẽ giống nhiều nhà khác. Ngừng đóng tiền cho ai cũng không ai lấy website của chú được, chú có thể chuyển website qua chỗ khác lưu trữ.
+>
+> **Bất lợi:** Website nhìn na ná mấy chục bên phế liệu khác vì cùng một cái mẫu có sẵn, không nổi bật. Khách vô thấy quen quen, cảm giác 'lại bên này nữa'.
 
 ### Gói C — Thiết kế riêng, KHÔNG có trang quản lý
 
