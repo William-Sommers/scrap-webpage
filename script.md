@@ -123,6 +123,8 @@
 > Cháu **không lấy chú giá thị trường gói D 10-15 triệu đâu**. Cháu lấy chú **8 triệu thôi** — tức là bằng tầm giá gói dưới luôn, nhưng chú nhận nội dung của gói cao.
 >
 > Chú trả tầm giá người làm tự do, nhưng cháu làm chất lượng y chang Sapo, Mona.
+>
+> **Và cháu còn tặng thêm chú bộ logo công ty** — cháu đã làm sẵn trong thiết kế, xuất ra file đầy đủ để chú dùng cho danh thiếp, bảng hiệu, Zalo, Facebook. Bên ngoài làm riêng không dưới 500 nghìn đâu chú.
 
 ### ⏸ CHỜ PHẢN ỨNG CỦA CHÚ — KHÔNG NÓI GÌ THÊM
 
@@ -138,6 +140,7 @@
 > - **Đăng ký tên miền + hướng dẫn setup chỗ lưu trữ** — 500 nghìn đến 1 triệu.
 > - **Tối ưu Google cơ bản** — 1 đến 2 triệu.
 > - **Hướng dẫn chú sử dụng** — 500 nghìn đến 1 triệu.
+> - **TẶNG THÊM: bộ logo công ty** — cháu đã làm sẵn trong thiết kế, cháu sẽ xuất ra file đầy đủ để chú dùng cho danh thiếp, bảng hiệu, Facebook, Zalo... Bên ngoài làm riêng không dưới 500 nghìn đâu chú, cháu tặng luôn trong 8 triệu.
 >
 > Cộng lại thị trường là **10 đến 17 triệu**. Cháu gom hết vô 8 triệu, vì chú là người quen của ba.
 >
@@ -186,6 +189,24 @@
 > Dạ cháu cũng muốn, nhưng làm website không chỉ là ngồi gõ, còn chỗ lưu trữ, cấu hình, tối ưu Google, bảo trì nữa.
 >
 > Cháu lấy giá quen rồi chú, 8 triệu đã rẻ hơn thị trường 30 đến 40% rồi ạ.
+
+---
+
+## ▶ NẾU CHÚ NÓI "CHÚ KHÔNG CÓ LOGO / HÌNH ẢNH"
+
+> Dạ không sao chú, cái này cháu xử lý được.
+>
+> **Về logo:** Chú khỏi lo, cháu đã làm sẵn bộ logo cho công ty chú trong thiết kế rồi — chú xem cái hình tròn xanh có chữ 'Phế Liệu Hưng Thịnh Phát' đó. Cháu sẽ xuất ra file đầy đủ để chú dùng cho danh thiếp, bảng hiệu, Facebook, Zalo. Tặng luôn trong 8 triệu, không tính thêm.
+>
+> **Về hình ảnh bãi phế liệu:** Cháu có 2 cách. Một là chú lấy điện thoại chụp giúp cháu vài tấm — bãi phế liệu, xe tải, nhân viên làm việc — chụp ban ngày, để ngang điện thoại, gửi cháu qua Zalo. Cháu chỉnh lại cho đẹp. Hai là cháu dùng hình trong thư viện hình ảnh chuyên nghiệp trên mạng — miễn phí, không đụng hàng với ai, cháu đã dùng loại đó trong bản thiết kế rồi chú thấy đó.
+>
+> Cháu khuyên chú gửi ít nhất 2-3 tấm hình bãi thật của chú — để khách hàng tin tưởng là công ty thật, không phải website ảo. Còn lại cháu phối với hình thư viện cho đẹp. Cách này vừa nhanh vừa không tốn tiền.
+
+### ⏸ NẾU CHÚ NÓI "LẤY HÌNH TỪ WEBSITE BÊN KHÁC CŨNG ĐƯỢC"
+
+> Dạ mình không nên lấy từ website bên khác chú, không phải vì sợ gì, mà tại Google nó nhận biết được là hình trùng lặp — nó sẽ không cho website mình lên top, thế là tiền chú bỏ ra tối ưu Google thành công cốc.
+>
+> Cháu có sẵn thư viện hình chuyên dùng cho website, miễn phí luôn, không đụng hàng với ai. Chú yên tâm.
 
 ---
 
